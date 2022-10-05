@@ -4,44 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1065c38-13fe-476f-97f0-6bdd316fbfaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CRM/clientes/Cliente.java" afterDir="false" />
+    <list default="true" id="c1065c38-13fe-476f-97f0-6bdd316fbfaa" name="Changes" comment="database error on &quot;citar&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/MenuPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/MenuPrincipal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/CitaClientes.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/CitaClientes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ResulBusqueda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ResulBusqueda$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ResulBusqueda$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ResulBusqueda$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ResulBusqueda$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ResulBusqueda$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ResulBusqueda.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ResulBusqueda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CRM/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CRM/MenuPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CRM/clientes/CitaClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CRM/clientes/CitaClientes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CRM/clientes/ClientesPotenciales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CRM/clientes/ClientesPotenciales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CRM/clientes/ModificarCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CRM/clientes/ModificarCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CRM/clientes/ResulBusqueda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CRM/clientes/ResulBusqueda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CRM/clientes/listadoClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CRM/clientes/listadoClientes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +77,14 @@
       <option name="presentableId" value="Default" />
       <updated>1663673674418</updated>
     </task>
+    <task id="LOCAL-00001" summary="database error on &quot;citar&quot;">
+      <created>1664970425159</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664970425159</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="database error on &quot;citar&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="database error on &quot;citar&quot;" />
   </component>
 </project>
