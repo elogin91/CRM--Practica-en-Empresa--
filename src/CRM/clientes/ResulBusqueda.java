@@ -209,6 +209,7 @@ public class ResulBusqueda extends JDialog {
 				{
 					JOptionPane.showMessageDialog(null, "Selecione Cliente");
 				}
+				dispose();
 			}
 		});
 		modificar.setBounds(300, 238, 100, 23);

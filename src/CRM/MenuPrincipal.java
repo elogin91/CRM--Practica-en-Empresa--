@@ -42,7 +42,7 @@ public class MenuPrincipal extends JFrame {
 		setIconImage(Toolkit.getDefaultToolkit().getImage(MenuPrincipal.class.getResource("/Imagenes/logo.png")));
 		setTitle(" C R M - F I N S E - ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 622, 475);
+		setBounds(10, 10, 622, 475);
 		setResizable(false);
 
 		contentPane = new JPanel();

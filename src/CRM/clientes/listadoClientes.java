@@ -2,6 +2,7 @@ package CRM.clientes;
 
 /**
  * @author Ainhoa Lopez Bleda
+ * @refactor Cristina Álvarez
  */
 
 import java.awt.Toolkit;
@@ -40,12 +41,12 @@ public class listadoClientes extends JDialog {
 		setTitle("L I S T A D O    C L I E N T E S    P O T E N C I A L E S");
 		cerrarpan = true;
 		setIconImage(Toolkit.getDefaultToolkit().getImage("Imagenes\\logo.png"));
-		setBounds(100, 100, 800, 309);
+		setBounds(10, 495, 1102, 309);
 		getContentPane().setLayout(null);
 		
 		//DIBUJAR TABLA
 		JScrollPane scrollPane = new JScrollPane();
-		scrollPane.setBounds(10, 11, 764, 216);
+		scrollPane.setBounds(10, 11, 1062, 216);
 		getContentPane().add(scrollPane);
 		table = new JTable();
 		scrollPane.setViewportView(table);
@@ -150,14 +151,14 @@ public class listadoClientes extends JDialog {
 		//BOTONES:
 		//BOTON BUSCAR
 
-        Btn buscar = new Btn("BUSCAR",220, 238, 100, 23 );
+        Btn buscar = new Btn("BUSCAR",230, 238, 100, 23 );
         getContentPane().add(buscar);
 
-		InputText valueToSearch = new InputText(110,238,100,23,10);
+		InputText valueToSearch = new InputText(120,238,100,23,10);
 		getContentPane().add(valueToSearch);
 
         String[] opcionesDesplegables = new String[]{"", "NombreApellidos", "Telefono", "idCliente","Curso_Interes","Resumen"};
-        ComboBox criteriaToSearch = new ComboBox(opcionesDesplegables, 10,238,90,23);
+        ComboBox criteriaToSearch = new ComboBox(opcionesDesplegables, 10,238,100,23);
         getContentPane().add(criteriaToSearch);
 
 		//Realiza la busqueda y devuelve el listado resultante en otra ventana
@@ -202,7 +203,7 @@ public class listadoClientes extends JDialog {
 				}
 			}
 		});
-		eliminar.setBounds(510, 238, 100, 23);
+		eliminar.setBounds(582, 238, 100, 23);
 		getContentPane().add(eliminar);
 
 		//BOTON MODIFICAR
@@ -223,13 +224,16 @@ public class listadoClientes extends JDialog {
 				{
 					JOptionPane.showMessageDialog(null, "Selecione Cliente");
 				}
+
+				dispose();
 			}
 		});
-		modificar.setBounds(370, 238, 100, 23);
+		modificar.setBounds(712, 238, 100, 23);
 		getContentPane().add(modificar);
 		
 		//BOTON NUEVO
-		nuevo = new JButton("NUEVO");
+		Btn nuevo = new Btn("NUEVO",842, 238, 100, 23);
+		getContentPane().add(nuevo);
 		nuevo.addActionListener(new ActionListener() 
 		{
 			public void actionPerformed(ActionEvent e) 
@@ -247,8 +251,10 @@ public class listadoClientes extends JDialog {
 				
 			}
 		});
-		nuevo.setBounds(660, 238, 100, 23);
-		getContentPane().add(nuevo);
+
+		//Botón citar
+		Btn citar = new Btn("CITAR",972, 238, 100, 23 );
+		getContentPane().add(citar);
 		
 	}
 			

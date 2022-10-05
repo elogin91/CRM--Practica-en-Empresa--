@@ -33,6 +33,8 @@ import com.toedter.calendar.JDateChooser;
 import Conexion.Conexion;
 import Rutinas.esNumerico;
 
+import static CRM.clientes.Cliente.getIdClient;
+
 public class ModificarCliente extends JFrame 
 {
 
@@ -152,6 +154,14 @@ public class ModificarCliente extends JFrame
 
 						JOptionPane.showMessageDialog(null, "Cliente modificado", "INFORMACION",
 								JOptionPane.INFORMATION_MESSAGE);
+
+						//Abre la ventana Citar cuando cita = 'Sí'
+						String comprobarValor="Si";
+						if(comprobarValor.equals(comboCita.getSelectedItem().toString())) {
+							CitaClientes citar = new CitaClientes(nombreApellidos.getText(),getIdClient(telefono.getText()));
+							citar.setVisible(true);
+						}
+
 						dispose();
 						listadoClientes lista = new listadoClientes();
 						lista.setVisible(true);

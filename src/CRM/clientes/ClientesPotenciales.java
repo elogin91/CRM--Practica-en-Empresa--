@@ -2,6 +2,7 @@ package CRM.clientes;
 
 /**
  * @author Ainhoa Lopez Bleda
+ * * @refactor Cristina Álvarez
  */
 
 import java.awt.Toolkit;
@@ -24,6 +25,7 @@ import Conexion.Conexion;
 import Rutinas.esNumerico;
 
 
+import static CRM.clientes.Cliente.getIdClient;
 import static CRM.servicios.CleanForm.cleanForm;
 import static CRM.servicios.Eventos.controlCaracteres;
 import static CRM.servicios.Eventos.validationPhoneNumber;
@@ -43,7 +45,7 @@ public class ClientesPotenciales extends JFrame {
 		setTitle("C L I E N T E S  P O T E N C I A L E S");
 		setIconImage(Toolkit.getDefaultToolkit()
 				.getImage(ClientesPotenciales.class.getResource("/Imagenes/c-potenciales.png")));
-		setBounds(100, 100, 540, 472);
+		setBounds(642, 10, 470, 472);
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setResizable(false);
 
@@ -215,17 +217,6 @@ public class ClientesPotenciales extends JFrame {
 		ComboBox concretarCita =new ComboBox(opcionesDesplegables,150, 270, 56, 20);
 		getContentPane().add(concretarCita);
 
-		// Si se selecciona el valor si-> se abre ventana crear cita.
-		concretarCita.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				String comprobarValor="Si";
-				if(comprobarValor.equals(concretarCita.getSelectedItem().toString())) {
-					CitaClientes citar = new CitaClientes();
-					citar.setVisible(true);
-				}
-			}
-		});
-
 		//Detalles
 		Etiqueta etiquetaDetalles = new Etiqueta("Detalles",20, 303, 56, 34,2);
 		getContentPane().add(etiquetaDetalles);
@@ -233,7 +224,7 @@ public class ClientesPotenciales extends JFrame {
 		InputText detalles = new InputText(150, 300, 215, 50, 10);
 		getContentPane().add(detalles);
 
-		// BOTON INSERTAR
+		// BOTON AÑADIR
 		Btn añadirContacto=new Btn("AÑADIR",45, 365, 95, 23);
 		getContentPane().add(añadirContacto);
 
@@ -276,12 +267,17 @@ public class ClientesPotenciales extends JFrame {
 						comando.setString(8, (String) responsable.getSelectedItem());
 						comando.setString(9, (String) concretarCita.getSelectedItem());
 						comando.setString(10, detalles.getText());
-
 						comando.executeUpdate();
 
 						JOptionPane.showMessageDialog(null, "Cliente insertado", "INFORMACION",
 								JOptionPane.INFORMATION_MESSAGE);
 
+						// Si se selecciona el valor si en citar-> se abre ventana crear cita.
+						String comprobarValor="Si";
+						if(comprobarValor.equals(concretarCita.getSelectedItem().toString())) {
+							CitaClientes citar = new CitaClientes(nombreApellidos.getText(),getIdClient(telefono.getText()));
+							citar.setVisible(true);
+						}
 					} else {
 						JOptionPane.showMessageDialog(null, "Telefono incorrecto");
 					}
@@ -293,6 +289,7 @@ public class ClientesPotenciales extends JFrame {
 				} finally {
 					try {
 						conexion.close();
+						dispose();
 					} catch (SQLException e1) {
 						e1.printStackTrace();
 					}
@@ -300,19 +297,8 @@ public class ClientesPotenciales extends JFrame {
 			}
 		});
 
-/*		// BOTON CITA
-		Btn cita = new Btn("CITA",10, 385, 95, 23);
-		getContentPane().add(cita);
-		//EVENTO ABRIR LA VENTANA CITA
-		cita.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				CitaClientes citar = new CitaClientes();
-				citar.setVisible(true);
-			}
-		});*/
-
-		// BOTON MOSTRAR LISTADO
-		Btn listado = new Btn("BUSCAR CLIENTE", 45, 400, 200, 23);
+		// BOTON BUSCAR
+		Btn listado = new Btn("BUSCAR", 260, 365, 100, 23);
 		getContentPane().add(listado);
 
 		//Evento abrir un listado.
@@ -335,7 +321,7 @@ public class ClientesPotenciales extends JFrame {
 		});
 
 		// LOGO FINSE
-		LogoFinse logoFinse= new LogoFinse("foto",325, 10, 180, 389);
+		LogoFinse logoFinse= new LogoFinse("foto",230, 10, 180, 389);
 		getContentPane().add(logoFinse);
 	}
 }

@@ -4,7 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1065c38-13fe-476f-97f0-6bdd316fbfaa" name="Changes" comment="" />
+    <list default="true" id="c1065c38-13fe-476f-97f0-6bdd316fbfaa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CRM/clientes/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/MenuPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/MenuPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/CitaClientes.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/CitaClientes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ClientesPotenciales.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ModificarCliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ResulBusqueda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ResulBusqueda$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ResulBusqueda$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ResulBusqueda$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ResulBusqueda$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ResulBusqueda$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/ResulBusqueda.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/ResulBusqueda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CRM/clientes/listadoClientes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CRM/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CRM/MenuPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CRM/clientes/CitaClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CRM/clientes/CitaClientes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CRM/clientes/ClientesPotenciales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CRM/clientes/ClientesPotenciales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CRM/clientes/ModificarCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CRM/clientes/ModificarCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CRM/clientes/ResulBusqueda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CRM/clientes/ResulBusqueda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CRM/clientes/listadoClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CRM/clientes/listadoClientes.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,16 +67,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/Practicas/PRACTICAS CRISTINA/CRM v0.4&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/USER/Desktop/Practicas/PRACTICAS CRISTINA/CRM--Practica-en-Empresa--",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="CRM.clientes" />
